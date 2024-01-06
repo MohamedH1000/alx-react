@@ -4,10 +4,11 @@
     position: relative;
 }
 
-li[data="default"] {
+[data-notification-type="default"] {
     color: blue;
-}
+  }
   
-li[data="urgent"] {
+  [data-urgent],
+  [data-notification-type="urgent"] {
     color: red;
-}
+  }
