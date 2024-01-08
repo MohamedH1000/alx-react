@@ -1,0 +1,19 @@
+#CourseList {
+    display: table;
+    width: 70%;
+    margin: auto;
+    margin-top: 40px;
+}
+#CourseList, table th  {
+   border: 1px solid rgb(182, 176, 176);
+   border-collapse: collapse;
+   height: 30px;
+}
+
+table tr:nth-child(2){
+    text-align: left;
+}
+table td {
+    height: 30px;
+    font-weight: 500;
+}
